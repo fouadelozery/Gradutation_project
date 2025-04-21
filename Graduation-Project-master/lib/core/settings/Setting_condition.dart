@@ -49,7 +49,7 @@ class SettingCondition extends StatelessWidget {
                               ),
                             )
                 ])
-                      )
+                      ) 
                       )
                       ,
                         const CustomBottomNavigationBar(),

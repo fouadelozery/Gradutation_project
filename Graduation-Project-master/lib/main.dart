@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:gradution_project/INTJ.dart';
+import 'package:gradution_project/chatbot/Chat_Bot_Screen.dart';
 import 'package:gradution_project/core/settings/Edit_Profil.dart';
 import 'package:gradution_project/core/settings/Setting_Screen.dart';
 import 'package:gradution_project/core/settings/Setting_condition.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         
         useMaterial3: true,
       ),
-      home:  const SettingPrivacy(),
+      home:  const ChatBotScreen(),
     );
   }
 }
